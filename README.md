@@ -8,7 +8,7 @@ Lidarr is a music collection manager for Usenet and BitTorrent users. It can mon
 
 **Build notes**
 
-Latest stable Lidarr release from Arch Linux AUR.
+Latest development build of Lidarr from Arch Linux AUR.
 
 **Usage**
 ```
