@@ -19,7 +19,7 @@ mv /tmp/scripts-master/shell/arch/docker/*.sh /root/
 ####
 
 # define pacman packages
-pacman_packages="git libmediainfo mono sqlite chromaprint"
+pacman_packages="git libmediainfo sqlite chromaprint"
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
