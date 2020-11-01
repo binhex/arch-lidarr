@@ -31,8 +31,6 @@ else
 	OS_ARCH="x86-64"
 fi
 
-source build.sh
-
 # pacman packages
 ####
 
