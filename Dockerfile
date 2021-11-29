@@ -27,9 +27,6 @@ RUN chmod +x /root/*.sh && \
 # docker settings
 #################
 
-O map /media to host defined media path (used to read/write to media library)
-VOLUME /media
-
 # expose port for http
 EXPOSE 8686
 
