@@ -40,7 +40,7 @@ refresh.sh
 ####
 
 # define pacman packages
-pacman_packages="git libmediainfo sqlite chromaprint"
+pacman_packages=""
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
@@ -51,7 +51,7 @@ fi
 ####
 
 # define aur packages
-aur_packages="lidarr"
+aur_packages="lidarr-bin"
 
 # call aur install script (arch user repo)
 source aur.sh
